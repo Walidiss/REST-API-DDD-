@@ -1,0 +1,12 @@
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\bin\Debug\net6.0\HomeKitchen.Domain.deps.json
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\bin\Debug\net6.0\HomeKitchen.Domain.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\bin\Debug\net6.0\HomeKitchen.Domain.pdb
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.csproj.AssemblyReference.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.AssemblyInfoInputs.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.AssemblyInfo.cs
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.csproj.CoreCompileInputs.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\refint\HomeKitchen.Domain.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\HomeKitchen.Domain.pdb
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Domain\obj\Debug\net6.0\ref\HomeKitchen.Domain.dll

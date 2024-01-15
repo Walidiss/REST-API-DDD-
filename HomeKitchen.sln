@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeKitchen.Contracts", "HomeKitchen.Contracts\HomeKitchen.Contracts.csproj", "{50E057B6-ACFA-4615-B15C-1421B1CCEF59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeKitchen.Api", "HomeKitchen.Api\HomeKitchen.Api.csproj", "{39BDC1AB-89ED-467D-B28B-49057D6ABF23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeKitchen.Application", "HomeKitchen.Application\HomeKitchen.Application.csproj", "{1BAB51EA-8D6E-4F54-8EDF-DB8908E385E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeKitchen.Infrastructure", "HomeKitchen.Infrastructure\HomeKitchen.Infrastructure.csproj", "{D16DE5CB-1A6F-41BD-936D-5B184B81862C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeKitchen.Domain", "HomeKitchen.Domain\HomeKitchen.Domain.csproj", "{34E698DC-95C2-43CB-9DEA-80A086063105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A1F9B7D1-418A-441F-9509-A59F94F4BAE5}"
+	ProjectSection(SolutionItems) = preProject
+		Api.md = Api.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{E45985FE-4B02-4B2B-BA1A-60CDC729F1CC}"
+	ProjectSection(SolutionItems) = preProject
+		Login.http = Login.http
+		Register.http = Register.http
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50E057B6-ACFA-4615-B15C-1421B1CCEF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E057B6-ACFA-4615-B15C-1421B1CCEF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E057B6-ACFA-4615-B15C-1421B1CCEF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E057B6-ACFA-4615-B15C-1421B1CCEF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BDC1AB-89ED-467D-B28B-49057D6ABF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BDC1AB-89ED-467D-B28B-49057D6ABF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BDC1AB-89ED-467D-B28B-49057D6ABF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BDC1AB-89ED-467D-B28B-49057D6ABF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAB51EA-8D6E-4F54-8EDF-DB8908E385E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAB51EA-8D6E-4F54-8EDF-DB8908E385E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAB51EA-8D6E-4F54-8EDF-DB8908E385E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAB51EA-8D6E-4F54-8EDF-DB8908E385E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16DE5CB-1A6F-41BD-936D-5B184B81862C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16DE5CB-1A6F-41BD-936D-5B184B81862C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16DE5CB-1A6F-41BD-936D-5B184B81862C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16DE5CB-1A6F-41BD-936D-5B184B81862C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E698DC-95C2-43CB-9DEA-80A086063105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E698DC-95C2-43CB-9DEA-80A086063105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E698DC-95C2-43CB-9DEA-80A086063105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E698DC-95C2-43CB-9DEA-80A086063105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A12481-54F7-49A8-AE97-C19BE5E84519}
+	EndGlobalSection
+EndGlobal

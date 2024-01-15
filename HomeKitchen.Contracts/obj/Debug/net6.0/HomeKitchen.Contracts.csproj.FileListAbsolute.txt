@@ -1,0 +1,12 @@
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\bin\Debug\net6.0\HomeKitchen.Contracts.deps.json
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\bin\Debug\net6.0\HomeKitchen.Contracts.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\bin\Debug\net6.0\HomeKitchen.Contracts.pdb
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.csproj.AssemblyReference.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.AssemblyInfoInputs.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.AssemblyInfo.cs
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\refint\HomeKitchen.Contracts.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.pdb
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\ref\HomeKitchen.Contracts.dll
