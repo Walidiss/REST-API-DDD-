@@ -2,6 +2,6 @@
 namespace HomeKitchen.Contracts.Authentication;
 public record LoginRequest(
     string Email,
-    string password
+    string Password
     );
 

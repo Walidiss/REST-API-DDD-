@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e2aOwRLqWAPDAVpMq2mEtN9TrNnwxOebS+yfdXIjxNRH5cm7q6qDNHmeUqtef4dZX/BRm0fwvQQ4RyE4nXLXag==",
+  "dgSpecHash": "K9SFucgAHwMqRErlhA5DAGv3CVkRYm+cp0MqZB3gxHgxaZytvzEyokE8nvA5Xd/2upfcUDizigPosi4jbZIPGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\walid.issaoui-c\\source\\repos\\HomeKitchen\\HomeKitchen.Domain\\HomeKitchen.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\erroror\\1.9.0\\erroror.1.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

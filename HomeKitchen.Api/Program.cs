@@ -1,7 +1,8 @@
+using HomeKitchen.Api;
+using HomeKitchen.Api.Common.Errors;
 using HomeKitchen.Application;
-using HomeKitchen.Application.Services.Authentication;
 using HomeKitchen.Infrastructure;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,11 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
     // Add services to the container.
     builder.Services
         .AddApplication()
+        .AddPresentation()
         .AddInfrastructure(builder.Configuration);
-    builder.Services.AddControllers();
 }
 var app = builder.Build();
 {
+    app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.MapControllers();
     app.Run();

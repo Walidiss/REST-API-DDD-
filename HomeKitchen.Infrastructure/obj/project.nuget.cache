@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aETb75u+SX1eUdgL1pK11StmkytXk+VGikzYG5Jckia5x8elK2PFhRB9wsuxifHJFx7LU6ggpW9DdWGbbnqvQw==",
+  "dgSpecHash": "0d2+vsbp1k809fTBEPJoD6cS5wRmSHJs1hnV1d8jsFq+g+ZLgRaY5hjOPMo5Q4gUPEs+vV2VPuWaEsGpU2yBgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\walid.issaoui-c\\source\\repos\\HomeKitchen\\HomeKitchen.Infrastructure\\HomeKitchen.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\erroror\\1.9.0\\erroror.1.9.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

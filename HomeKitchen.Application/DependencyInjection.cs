@@ -1,10 +1,5 @@
-﻿using HomeKitchen.Application.Services.Authentication;
+﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HomeKitchen.Application
 {
@@ -12,7 +7,7 @@ namespace HomeKitchen.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddScoped<IAuthenticationService,AuthenticationService>();
+            services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(DependencyInjection).Assembly));
             return services;    
 
         }

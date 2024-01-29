@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vCrygvdOxQHVaCwjqxdTfapTPMoTBcxDxWkMX7psjXcUDDfKt2Yr+Bqxs7WtcUukqwi5A4bxcBtUS4sMlV/TzA==",
+  "dgSpecHash": "7uPqfovT7bYObX+glCgmhq7C0wSKcmX423ZepLzLVBGFlD+e2GTZY0onF+I8WH9bSK/8WEmeWxe7k1iqW6k7gQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\walid.issaoui-c\\source\\repos\\HomeKitchen\\HomeKitchen.Application\\HomeKitchen.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\erroror\\1.9.0\\erroror.1.9.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []

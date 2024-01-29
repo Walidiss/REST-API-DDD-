@@ -1,47 +1,61 @@
-﻿using HomeKitchen.Application.Services.Authentication;
+﻿using ErrorOr;
 using HomeKitchen.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using HomeKitchen.Domain.Common.Errors;
+using MediatR;
+using HomeKitchen.Application.Authentication.Commands.Register;
+using HomeKitchen.Application.Authentication.Queries.Login;
+using HomeKitchen.Application.Common;
+using MapsterMapper;
 
 namespace HomeKitchen.Api.Controllers
 {
-    [ApiController]
     [Route("auth")]
-    public class AuthenticationController : ControllerBase
+    public class AuthenticationController : ApiController
     {
-        private readonly IAuthenticationService _authenticationService;
-        public AuthenticationController(IAuthenticationService authenticationService)
-        {
-            _authenticationService = authenticationService;
-        }
-        [HttpPost("Register")]
-        public IActionResult Register(RegisterRequest request)
-        {
-            var registerationResult = _authenticationService.register(request.FirstName, request.LastName, request.Email, request.Password);
+        private readonly ISender _sender;
+        private readonly IMapper _mapper;
+        public AuthenticationController(ISender sender,IMapper mapper)
+        {   
+            _sender = sender;
+            _mapper = mapper;
 
-            var response = new AuthenticationResponse(
-                registerationResult.Id,
-                registerationResult.FirstName,
-                registerationResult.LastName,
-                registerationResult.Email,
-                registerationResult.Token
-                );
-            return Ok(response);
         }
+
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterRequest request)
+        {
+            var command = _mapper.Map<RegisterCommand>(request);
+            ErrorOr<AuthenticationResult> registerationResult = await _sender.Send(command);
+
+            //if(registerationResult.IsError && registerationResult.FirstError == Errors.User.DuplicateEmail)
+            //{
+            //    return Problem(statusCode: StatusCodes.Status401Unauthorized, title: registerationResult.FirstError.Description);
+            //}
+           return registerationResult.Match(            
+               registerationResult => Ok(_mapper.Map<AuthenticationResponse>(registerationResult)),
+                errors => Problem(errors)
+                );
+        }
+
 
         [HttpPost("Login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authenticationResult = _authenticationService.login(request.Email, request.password);
+            var query = new LoginQuery(request.Email, request.Password);
+            //var query = _mapper.Map<LoginQuery>(request);
+            ErrorOr<AuthenticationResult> authenticationResult = await _sender.Send(query);
 
-            var response = new AuthenticationResponse(
-                authenticationResult.Id,
-                authenticationResult.FirstName,
-                authenticationResult.LastName,
-                authenticationResult.Email,
-                authenticationResult.Token
-                );
-
-            return Ok(response);
+            if(authenticationResult.IsError && authenticationResult.FirstError == Errors.Authentication.InvalidCredentails)
+            {
+                return Problem(
+                    statusCode: StatusCodes.Status401Unauthorized,
+                    title: authenticationResult.FirstError.Description);
+            }
+            return authenticationResult.Match (
+                authenticationResult => Ok(_mapper.Map<AuthenticationResponse>(authenticationResult)),
+                errors => Problem(errors)
+                ) ;
         }
     }
 }

@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "qAoJbIqg+/LAzZ5VuvPoLpP4gHWQbk9BMnU00SjeFHJ+AfPTdtWnRCtxszrz6jWGRHP1f3T2Elj/jfAS8K69ug==",
+  "dgSpecHash": "1ORjMakLE4q04g9Sn9bNnaAaxBKo18Ycm8F+SknDx8PST493lvR6g5U5ikBaQcjOysK9Bg4G8XX1QPMm+9Ae3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\walid.issaoui-c\\source\\repos\\HomeKitchen\\HomeKitchen.Api\\HomeKitchen.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\erroror\\1.9.0\\erroror.1.9.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\walid.issaoui-c\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
