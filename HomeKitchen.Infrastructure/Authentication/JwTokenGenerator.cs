@@ -42,7 +42,8 @@ namespace HomeKitchen.Infrastructure.Authentication
             };
             var securityToken = new JwtSecurityToken(
                 issuer: _jwtSettings.Issuer,
-                expires: _dateTimeProvider.Now.AddMinutes(_jwtSettings.ExpirationTimeInMinutes),
+                audience: _jwtSettings.Audience,
+                expires: _dateTimeProvider.Now.AddDays(_jwtSettings.ExpirationTimeInMinutes),
                 claims: claims,
                 signingCredentials: signingCredentials
                 );
