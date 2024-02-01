@@ -14,6 +14,6 @@ namespace HomeKitchen.Infrastructure.Authentication
 
         public string Audience { get; init; } = null!;
 
-        public int ExpirationTimeInMinutes { get; init; }
+        public int ExpirationTimeInMinutes { get; init; } = 60;
     }
 }

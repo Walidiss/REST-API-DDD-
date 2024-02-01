@@ -7,10 +7,12 @@ using HomeKitchen.Application.Authentication.Commands.Register;
 using HomeKitchen.Application.Authentication.Queries.Login;
 using HomeKitchen.Application.Common;
 using MapsterMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HomeKitchen.Api.Controllers
 {
     [Route("auth")]
+    [AllowAnonymous]
     public class AuthenticationController : ApiController
     {
         private readonly ISender _sender;
