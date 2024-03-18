@@ -31,6 +31,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentic
 		Register.http = Register.http
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Menus", "Menus", "{F46BC483-50D3-46C6-9C75-31FAFA3E95A4}"
+	ProjectSection(SolutionItems) = preProject
+		CreateMenuRequest.http = CreateMenuRequest.http
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{2E0D817F-A73A-402D-98A9-B3C7BC9B740D}"
+	ProjectSection(SolutionItems) = preProject
+		Aggregates.Menu.md = Aggregates.Menu.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +74,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{520356A1-1AEE-49C6-BBBD-7CAC527D9B97} = {E45985FE-4B02-4B2B-BA1A-60CDC729F1CC}
 		{5D01897A-92E1-4A5B-B3DF-13A817D161BE} = {E45985FE-4B02-4B2B-BA1A-60CDC729F1CC}
+		{F46BC483-50D3-46C6-9C75-31FAFA3E95A4} = {E45985FE-4B02-4B2B-BA1A-60CDC729F1CC}
+		{2E0D817F-A73A-402D-98A9-B3C7BC9B740D} = {A1F9B7D1-418A-441F-9509-A59F94F4BAE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33A12481-54F7-49A8-AE97-C19BE5E84519}
