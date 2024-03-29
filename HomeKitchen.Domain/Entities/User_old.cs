@@ -1,6 +1,6 @@
 ﻿namespace HomeKitchen.Domain.Entities
 {
-    public class User
+    public class User_old
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string FirstName { get; set; } = null!;

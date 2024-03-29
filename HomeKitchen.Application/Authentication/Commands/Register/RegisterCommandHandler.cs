@@ -3,7 +3,7 @@ using HomeKitchen.Application.Common;
 using HomeKitchen.Application.Common.Interfaces.Authentication;
 using HomeKitchen.Application.Persistence;
 using HomeKitchen.Domain.Common.Errors;
-using HomeKitchen.Domain.Entities;
+using HomeKitchen.Domain.Users;
 using MediatR;
 
 namespace HomeKitchen.Application.Authentication.Commands.Register
@@ -18,23 +18,23 @@ namespace HomeKitchen.Application.Authentication.Commands.Register
             _userRepository = userRepository;
             _jwTokenGenerator = jwTokenGenerator;
         }
-        public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand request, CancellationToken cancellationToken)
+        public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand command, CancellationToken cancellationToken)
         {
             await Task.CompletedTask;
             // 1.Validate user dosen't exist   
-            if(_userRepository.GetUserByEmail(request.Email) is not null)
+            if(_userRepository.GetUserByEmail(command.Email) is not null)
             {
                 return  Errors.User.DuplicateEmail;
             }
 
             // 2.Create user 
-            var user = new User
-            {
-                FirstName = request.FirstName,
-                LastName = request.LastName,
-                Email = request.Email,
-                Password = request.Password
-            };
+            var user =  User.Create
+          (
+                 command.FirstName,
+                 command.LastName,
+                 command.Email,
+                 command.Password
+            );
             _userRepository.AddUser(user);
 
             // 3.Generate jwt token

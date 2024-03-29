@@ -13,3 +13,5 @@ C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\obj\De
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\obj\Debug\net6.0\refint\HomeKitchen.Application.dll
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\obj\Debug\net6.0\HomeKitchen.Application.pdb
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\obj\Debug\net6.0\ref\HomeKitchen.Application.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\bin\Debug\net6.0\HomeKitchen.Contracts.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Application\bin\Debug\net6.0\HomeKitchen.Contracts.pdb
