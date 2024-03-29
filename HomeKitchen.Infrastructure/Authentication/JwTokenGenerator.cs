@@ -1,6 +1,7 @@
 ﻿using HomeKitchen.Application.Abstractions;
 using HomeKitchen.Application.Common.Interfaces.Authentication;
 using HomeKitchen.Domain.Entities;
+using HomeKitchen.Domain.Users;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;

@@ -5,6 +5,7 @@ using HomeKitchen.Domain.Entities;
 using HomeKitchen.Domain.Common.Errors;
 using MediatR;
 using HomeKitchen.Application.Common;
+using HomeKitchen.Domain.Users;
 
 namespace HomeKitchen.Application.Authentication.Queries.Login
 {

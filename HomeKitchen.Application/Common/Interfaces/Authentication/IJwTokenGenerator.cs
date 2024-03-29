@@ -1,5 +1,5 @@
 ﻿
-using HomeKitchen.Domain.Entities;
+using HomeKitchen.Domain.Users;
 
 namespace HomeKitchen.Application.Common.Interfaces.Authentication
 {

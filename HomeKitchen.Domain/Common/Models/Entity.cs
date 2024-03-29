@@ -38,5 +38,6 @@ namespace HomeKitchen.Domain.Common.Models
         {
             return Id.GetHashCode();
         }
+        protected Entity() { }
     }
 }

@@ -250,6 +250,7 @@
       },
       "HomeKitchen.Application/1.0.0": {
         "dependencies": {
+          "HomeKitchen.Contracts": "1.0.0",
           "HomeKitchen.Domain": "1.0.0",
           "MediatR": "12.2.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
@@ -257,6 +258,14 @@
         },
         "runtime": {
           "HomeKitchen.Application.dll": {}
+        }
+      },
+      "HomeKitchen.Contracts/1.0.0": {
+        "dependencies": {
+          "HomeKitchen.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HomeKitchen.Contracts.dll": {}
         }
       },
       "HomeKitchen.Domain/1.0.0": {
@@ -430,6 +439,11 @@
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
     },
     "HomeKitchen.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeKitchen.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

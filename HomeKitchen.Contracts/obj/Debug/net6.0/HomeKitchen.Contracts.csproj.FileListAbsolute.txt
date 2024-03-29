@@ -10,3 +10,6 @@ C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debu
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\refint\HomeKitchen.Contracts.dll
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.pdb
 C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\ref\HomeKitchen.Contracts.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\bin\Debug\net6.0\HomeKitchen.Domain.dll
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\bin\Debug\net6.0\HomeKitchen.Domain.pdb
+C:\Users\walid.issaoui-c\source\repos\HomeKitchen\HomeKitchen.Contracts\obj\Debug\net6.0\HomeKitchen.Contracts.csproj.CopyComplete
